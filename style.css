@@ -1,0 +1,55 @@
+body {
+    background-color: #010165;
+    margin: 0px;
+  }
+  .door-row { 
+  text-align:center}
+  .door-frame{
+    cursor: pointer;
+    padding:10px
+  }
+  .start-row{
+    margin:auto;
+    width:120px;
+    height:43px;
+    font-family: 'Work Sans';
+    background-color:#f0190a;
+    padding-top:18px;
+    font-size:18px;
+    text-align:center;
+    margin-bottom: 21px;
+    cursor: pointer;
+    border-radius: 5px
+    
+  }
+  #door {
+    margin:auto;
+    width:120px;
+    height:43px;
+    font-family: 'Work Sans';
+    background-color:#f0190a;
+    padding-top:18px;
+    padding-bottom: 18px;
+    font-size:18px;
+    text-align:center;
+    margin-bottom: 21px;
+    cursor: pointer;
+    border-radius: 5px
+    
+  }
+  .header { 
+  background-color:#00ffff;
+    text-align: center
+  }
+  .title-row { 
+    margin-top: 42px;
+    margin-bottom: 21px;
+    text-align: center
+  }
+  .instructions-title { 
+  display: inline;
+  font-size: 18px;
+    color: #00ffff;
+    font-family: 'Work Sans'
+  
+  }
