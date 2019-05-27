@@ -1,55 +1,42 @@
 body {
-    background-color: #010165;
-    margin: 0px;
-  }
+  background-color: #010165;
+  margin: 0px;
+}
+.title-row { 
+  background: #00ffff;
+  color: #010165;
+  margin: 10px 0;
+  padding: 2px 0;
+  text-align: center
+}
   .door-row { 
-  text-align:center}
+    text-align:center;
+    min-width: 250px;
+}
   .door-frame{
     cursor: pointer;
-    padding:10px
   }
-  .start-row{
-    margin:auto;
-    width:120px;
-    height:43px;
-    font-family: 'Work Sans';
-    background-color:#f0190a;
-    padding-top:18px;
-    font-size:18px;
-    text-align:center;
-    margin-bottom: 21px;
-    cursor: pointer;
-    border-radius: 5px
-    
+  .box {
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    background: purple;
+    margin:5px auto;
+    margin-bottom: 3px;
+    height: fit-content;
+    width: 100px;
+    border-radius: 5px;
+    font-size:16px;
+    border: 2px solid #00ffff;
+    color: #00ffff
+
+
   }
   #door {
-    margin:auto;
-    width:120px;
-    height:43px;
     font-family: 'Work Sans';
-    background-color:#f0190a;
-    padding-top:18px;
-    padding-bottom: 18px;
-    font-size:18px;
-    text-align:center;
-    margin-bottom: 21px;
     cursor: pointer;
-    border-radius: 5px
     
   }
   .header { 
-  background-color:#00ffff;
     text-align: center
-  }
-  .title-row { 
-    margin-top: 42px;
-    margin-bottom: 21px;
-    text-align: center
-  }
-  .instructions-title { 
-  display: inline;
-  font-size: 18px;
-    color: #00ffff;
-    font-family: 'Work Sans'
-  
   }
